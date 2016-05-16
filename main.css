@@ -15,6 +15,7 @@ tr:last-child td {
     border-bottom: 0;
 }
 
+/* 2 Stats */
 .captions {
     border-top: 1px solid #666;
     border-bottom: 1px solid #666;
@@ -33,9 +34,14 @@ tr:last-child td {
     color: #d3d3d3;
 }
 
+/* Bar Chart #3 */
+.horizontal-chart th, .horizontal-chart td {
+    border-bottom: 0;
+}
+
 .horizontal-chart th {
     width: 100px;
-    text-align:right;
+    text-align: right;
 }
 
 .horizontal-chart div {
@@ -43,3 +49,22 @@ tr:last-child td {
    color: #fff;
 }
 
+/*  #4 like a Lightbox */
+body {
+    background: #ccc;
+}
+
+.lightbox {
+    background: #fff;
+    border-radius: 25px;
+    padding: 15px 30px 80px 15px;
+}
+
+.lightbox a {
+    background: #ED818A;
+    color: #FFF;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 10px;
+    float: right;
+}
