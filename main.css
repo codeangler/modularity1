@@ -49,7 +49,7 @@ tr:last-child td {
    color: #fff;
 }
 
-/*  #4 like a Lightbox */
+/*  #4 like a Lightbox 
 body {
     background: #ccc;
 }
@@ -76,6 +76,25 @@ body {
     border-radius: 10px;
     float: right;
 }
-
+*/
 
 /* 5 Media Block */
+.left{
+    display: block;
+    float:left;
+    margin-right: 10px;
+    /*clear: both;*/
+}
+
+.right{
+    display:block;
+    float:right;
+}
+
+.overflow{
+    overflow:hidden;
+}
+
+.indent-right{
+    margin-left: 50px;
+}
