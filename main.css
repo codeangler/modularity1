@@ -53,11 +53,19 @@ tr:last-child td {
 body {
     background: #ccc;
 }
-
 .lightbox {
+    position: fixed;
+    top: 35%;
+    margin: auto;
+    max-width: 500px;
+
+}
+
+.lightbox > div{
     background: #fff;
     border-radius: 25px;
     padding: 15px 30px 80px 15px;
+   
 }
 
 .lightbox a {
@@ -68,3 +76,6 @@ body {
     border-radius: 10px;
     float: right;
 }
+
+
+/* 5 Media Block */
