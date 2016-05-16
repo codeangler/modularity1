@@ -1,0 +1,45 @@
+/* ADD YOUR STYLES HERE */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border-bottom: 1px solid #cecfd5;
+    padding: 10px 15px;
+    
+}
+
+tr:last-child td {
+    border-bottom: 0;
+}
+
+.captions {
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    text-align:center;
+    padding: 10px 15px;
+    width: auto;    
+}
+
+.captions div:first-of-type {
+    font-size: 2.66em;
+    font-weight: 900;
+}
+
+.captions div + div {
+    font-size: .67em;
+    color: #d3d3d3;
+}
+
+.horizontal-chart th {
+    width: 100px;
+    text-align:right;
+}
+
+.horizontal-chart div {
+   background: #599EDE;
+   color: #fff;
+}
+
